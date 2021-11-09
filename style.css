@@ -1,0 +1,86 @@
+
+body {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
+    
+}
+
+main {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#textInput {
+    width: 90%;
+    color: white;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+#countButton {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+    #countButton {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+    }
+
+     #countButton:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+    div {
+        color: black;
+        width: 90%;        
+        margin: auto;
+        font-size: 15px;
+    }
+
+     #lettersDiv {
+        background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);         
+    }
+
+     #wordsDiv {
+        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);        
+     }
+
+     h3 {
+         margin-bottom: 0%;
+         text-align: left;
+         margin-left: 5%;
+     }
+
+@media (min-width: 800px) {
+
+    main {
+        text-align: center;
+        font-size: 25px;
+        color: rgb(122, 165, 230);
+    }
+    div {
+        font-size: 23px;  
+        width: 55%;
+        text-align: left;             
+    }     
+
+    h3 {
+        margin-left: 23%;
+    }
+    
+    #textInput {
+        font-size: 18px;
+        width: 55%;
+    }
+
+    
+
+
+
+
+}
